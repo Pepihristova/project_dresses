@@ -24,12 +24,12 @@ img{
 	width:200px;
 }
 footer {
-	position: fixed;
+	position: relative;
 	bottom: 20px;
+	text-align: center;
 }
 footer a{
 	position: relative;
-	left: 400%;
 	color: #2E8B57;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	
