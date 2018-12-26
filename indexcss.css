@@ -23,17 +23,7 @@ div{
 img{
 	width:200px;
 }
-footer {
-	position: relative;
-	bottom: 20px;
-	text-align: center;
-}
-footer a{
-	position: relative;
-	color: #2E8B57;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	
-}
+
 p{
 	color: #2E8B57;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,4 +31,31 @@ p{
 input{
 	color: #2E8B57;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.red{
+	color:#FF0000;
+}
+.green{
+	color: #008000;
+}
+.blue{
+	color: #1E90FF;
+}
+.pink{
+	color: #FFC0CB;
+}
+.orange{
+	color: #FFA500;
+}
+.gray{
+	color: #808080;
+}
+.black{
+	color: #000000;
+}
+.purple{
+	color: #800080;
+}
+.brown{
+	color: #A52A2A;
 }

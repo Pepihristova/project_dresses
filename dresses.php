@@ -6,6 +6,8 @@
 </head>
 <body>
 	<form method="post" action="" >
+		<p>Choose color</p>
+		<p><a href="https://www.rapidtables.com/web/color/html-color-codes.html"> <span class="red">C</span><span class="green">l</span><span class="blue">i</span><span class="pink">c</span><span class="orange">k</span><span class="gray"> h</span><span class="black">e</span><span class="purple">r</span><span class="brown">e</span></a></p>
 		<p>Put the hex code here</p>
 		<input type="text" name="hex">
 		<p>Press submit and see whether the dress is appropriate</p>
@@ -24,9 +26,8 @@ if (!empty($_POST)) {
 	$b = substr("$hex",  4 );
 		echo "<p>b = $b</p>";
 
-//$headec = hexdec("$hex");
-//echo "<p>$headec </p>";
-$r_hex = hexdec("$r");
+
+	$r_hex = hexdec("$r");
 		echo "<p>hex r = $r_hex</p>";
 
 	$g_hex =hexdec("$g");
@@ -46,7 +47,7 @@ if ($g_hex>$r_hex && $g_hex>$b_hex) {
 		<img src="images/greendress.gif">
 	</div>
 
-	<footer><p><a href="https://www.rapidtables.com/web/color/html-color-codes.html">To see the colors click here</a></p></footer>
+	
 
 </body>
 </html>
