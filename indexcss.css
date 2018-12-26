@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #F0FFF0;
+	background: url(images/sample.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form{
+	position: relative;
+	text-align: center;
+	margin-top: 5px;
+}
+div{
+	position: relative;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+	width:200px;
+}
+footer {
+	position: fixed;
+	bottom: 20px;
+}
+footer a{
+	position: relative;
+	left: 400%;
+	color: #2E8B57;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+p{
+	color: #2E8B57;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+	color: #2E8B57;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
