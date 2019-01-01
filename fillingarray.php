@@ -28,27 +28,22 @@
 					
 	$hex_array_value =$arr[$p];
 	$r = substr("$hex_array_value", -6, 2 );
-		//echo "<p>r = $r</p>";
 
 	$g = substr("$hex_array_value", -4, 2);
-		//echo "<p>g = $g</p>";
 
 	$b = substr("$hex_array_value",  4 );
-		//echo "<p>b = $b</p>";
 
-$headec = hexdec("$hex_array_value");
-//echo "<p>$headec </p>";
-$r_hex = hexdec("$r");
-		//echo "<p>hex r = $r_hex</p>";
+	$headec = hexdec("$hex_array_value");
+	$r_hex = hexdec("$r");
 
 	$g_hex =hexdec("$g");
-		//echo "<p>hex g = $g_hex</p>";
 
 	$b_hex = hexdec("$b");
-		//echo "<p>hex b = $b_hex</p>";
-
 if ($g_hex>$r_hex && $g_hex>$b_hex) {
+	
 	echo "$arr[$p]....";
+	
+
 }
 }
 		
