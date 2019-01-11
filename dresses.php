@@ -85,7 +85,7 @@ if ($g_hex>$r_hex && $g_hex>$b_hex) {
 	$b_hex_second_way = hexdec("$b_second_way");
 if ($g_hex_second_way>$r_hex_second_way && $g_hex_second_way>$b_hex_second_way) {
 	
-	echo "$arr[$p]....";
+	echo "<p>$arr[$p]....</p>";
 	
 
 }
