@@ -44,10 +44,60 @@ if ($g_hex>$r_hex && $g_hex>$b_hex) {
 }
 
 ?>
-		<img src="images/greendress.gif">
+		<img src="images/greendress.gif" alt="turningdress">
+		<hr>
 	</div>
+	<div>
+<form action="" method="post">
+		<p>How much are the dresses</p>
+		<input type="text" name="number">
+		<input type="submit" name="submit">
+	</form>
+	<?php 
+		if (!empty($_POST)) {
+			$number =$_POST['number'];
+			echo "The dresses in the shop are: $number";
+			$arr = [];
+			for ($i=0; $i <$number ; $i++) { 
+				$dec_second_way = rand(0,16777215);
+				$hex_second_way = dechex($dec_second_way  );
+				$arr[]= $hex_second_way ;
+			}
+			echo "<pre>";
+			var_dump($arr);
+			echo "</pre>";
 
+
+		for ($p=0; $p <$number ; $p++) { 
+					
+	$hex_array_value_second_way =$arr[$p];
+	$r_second_way = substr("$hex_array_value_second_way ", -6, 2 );
+
+	$g_second_way = substr("$hex_array_value_second_way e", -4, 2);
+
+	$b_second_way = substr("$hex_array_value_second_way ",  4 );
+
+	$headec_second_way = hexdec("$hex_array_value_second_way ");
+	$r_hex_second_way = hexdec("$r_second_way");
+
+	$g_hex_second_way =hexdec("$g_second_way");
+
+	$b_hex_second_way = hexdec("$b_second_way");
+if ($g_hex_second_way>$r_hex_second_way && $g_hex_second_way>$b_hex_second_way) {
 	
+	echo "$arr[$p]....";
+	
+
+}
+}
+		
+	}
+
+
+	?>
+	<img src="images/3dmodeldress.gif"alt="3dmodel">
+	<hr>
+	</div>
 
 </body>
 </html>

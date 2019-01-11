@@ -16,7 +16,7 @@
 			$arr = [];
 			for ($i=0; $i <$number ; $i++) { 
 				$dec = rand(0,16777215);
-				$hex = dechex($dec);
+				$hex = dechex($dec );
 				$arr[]= $hex ;
 			}
 			echo "<pre>";
@@ -48,6 +48,8 @@ if ($g_hex>$r_hex && $g_hex>$b_hex) {
 }
 		
 	}
+
+
 	?>
 </body>
 </html>

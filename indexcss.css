@@ -59,3 +59,8 @@ input{
 .brown{
 	color: #A52A2A;
 }
+hr{
+	width: 550px;
+	position: relative;
+	left: 33%;
+}
