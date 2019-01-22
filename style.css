@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #F0FFF0;
+	background: url(images/sample.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form{
+	position: relative;
+	text-align: center;
+	margin-top: 5px;
+}
+div{
+	position: relative;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+	width:200px;
+	text-align: center;
+}
+
+p{
+	color: #2E8B57;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+	color: #2E8B57;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.red{
+	color:#FF0000;
+}
+.green{
+	color: #008000;
+}
+.blue{
+	color: #1E90FF;
+}
+.pink{
+	color: #FFC0CB;
+}
+.orange{
+	color: #FFA500;
+}
+.gray{
+	color: #808080;
+}
+.black{
+	color: #000000;
+}
+.purple{
+	color: #800080;
+}
+.brown{
+	color: #A52A2A;
+}
+hr{
+	width: 550px;
+	position: relative;
+	left: 33%;
+}
+a{
+	color: #2E8B57;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
