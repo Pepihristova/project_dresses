@@ -56,13 +56,9 @@ $hex_length = strlen($array[$b]);
 }
 if (isset($_POST['submit2']))
 {
-   myfnc_thirdway();
+   reset($array);
 }
-function myfnc_thirdway()
-{
-	reset($array);
 
-}
 	?>
 	<img src="images/changecolordress.gif">
 	<hr>
